@@ -1,0 +1,6 @@
+framework module Pods_277CaldrenceVirefold {
+  umbrella header "Pods-277CaldrenceVirefold-umbrella.h"
+
+  export *
+  module * { export * }
+}

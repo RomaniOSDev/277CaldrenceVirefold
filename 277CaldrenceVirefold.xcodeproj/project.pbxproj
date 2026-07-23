@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04201FA0BD1F4DA89CFD8973 /* Base.lproj/LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDB28F3481F4A8BBF014757 /* Base.lproj/LaunchScreen.storyboard */; };
+		0D7AB4C786D442E8B4F52BA1 /* Views/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F696882F850249D4A288802D /* Views/ContentView.swift */; };
+		0FF524A43F854A349AF85D22 /* Application/AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98BF0C44A964148813DFEDB /* Application/AppDelegate.swift */; };
+		12CA385C4CAE47979D89F565 /* Views/Features/TrackJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2ABF9D92C412AA7418842 /* Views/Features/TrackJournalView.swift */; };
+		26655729991A4E45A36D694B /* Models/JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7D22CA92341359B8BF7FC /* Models/JournalEntry.swift */; };
+		26DE5374B19C44FE8948EFEF /* Views/Main/MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7EDEF81E91402093760F7D /* Views/Main/MainTabView.swift */; };
+		468CB66488684275B7C4F87E /* Views/Achievements/AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAB4E4B43D4D64810B0CB0 /* Views/Achievements/AchievementsView.swift */; };
+		4B0B669CBB6841CAA878BD52 /* Utilities/DesignComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF13BAB7C5FC4363B526AD1B /* Utilities/DesignComponents.swift */; };
+		5C7925996F14488391C792A9 /* Utilities/ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13423F2361E4B9B87B8AA16 /* Utilities/ShakeEffect.swift */; };
+		5D9B5E63D161489EA381A52F /* ViewModels/AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302C8437E6F459BAB768B6F /* ViewModels/AppDataStore.swift */; };
+		6070BFE5A6D546DA84EA41AF /* Models/Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9971DF4B34F1C989B5AFC /* Models/Achievement.swift */; };
+		6C78794DF4B64355A0B9F1E3 /* Services/HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705205F9F6F047BBB9A9CE2A /* Services/HapticService.swift */; };
+		6D2F4A0075F34204A9BB32BD /* Views/Features/TagExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2E9FEE81A45E788C02E16 /* Views/Features/TagExplorerView.swift */; };
+		7B9B14E2D92846508BE44F96 /* Application/SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0D3B532304739B26DC748 /* Application/SceneDelegate.swift */; };
+		8AA0840186294B509549D230 /* Views/Features/TagsHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC3E8C7DC774D5F95735000 /* Views/Features/TagsHubView.swift */; };
+		A7C3E91F4B2D4E8A9F01C2D3 /* Views/Statistics/StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D4F02E5C3E4F9B0A12D3E4 /* Views/Statistics/StatisticsView.swift */; };
+		AFDD8855C8A748BB980B10B0 /* Utilities/ScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B12EAE64894265B8C3A45E /* Utilities/ScreenBackground.swift */; };
+		C1A10001D0014A01B0010001 /* Models/TagRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A10002D0014A01B0010002 /* Models/TagRule.swift */; };
+		C1A10003D0014A01B0010003 /* Views/Features/GlobalSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A10004D0014A01B0010004 /* Views/Features/GlobalSearchView.swift */; };
+		C1A10005D0014A01B0010005 /* Views/Features/QuickAddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A10006D0014A01B0010006 /* Views/Features/QuickAddSheet.swift */; };
+		C1A10007D0014A01B0010007 /* Views/Features/MoodPlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A10008D0014A01B0010008 /* Views/Features/MoodPlaylistsView.swift */; };
+		C1A10009D0014A01B0010009 /* Views/Features/ListeningTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A1000AD0014A01B001000A /* Views/Features/ListeningTimelineView.swift */; };
+		C1A1000BD0014A01B001000B /* Views/Features/TagRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A1000CD0014A01B001000C /* Views/Features/TagRulesView.swift */; };
+		C1A1000DD0014A01B001000D /* Views/Features/TagMergeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A1000ED0014A01B001000E /* Views/Features/TagMergeView.swift */; };
+		C1A1000FD0014A01B001000F /* Views/Features/ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A10010D0014A01B0010010 /* Views/Features/ShareCardView.swift */; };
+		C1A10011D0014A01B0010011 /* Views/Features/TagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A10012D0014A01B0010012 /* Views/Features/TagDetailView.swift */; };
+		C59F82AC2A154F958A76441E /* Views/Features/TagLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0893A2FF14BF0A9F5D594 /* Views/Features/TagLibraryView.swift */; };
+		DB95DC1FE3EA4DD592F30BB2 /* Views/Onboarding/OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3799DB12F04BC8A667CA58 /* Views/Onboarding/OnboardingView.swift */; };
+		E3A069E8CFE341FB94929CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B08BDDA203418EBA1923BB /* Assets.xcassets */; };
+		E68D705BF194423AB888E1F7 /* Services/AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6641C730E4C94A4399E845FE /* Services/AppLinks.swift */; };
+		FB17D39F3A4F4529ACED4D2A /* Views/Settings/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F18F6F33D414BB1DEDE65 /* Views/Settings/SettingsView.swift */; };
+		FFE81C2502F645CCBD84C344 /* Models/MusicTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8E2AA5E8084C7EAEFF26AA /* Models/MusicTag.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0302C8437E6F459BAB768B6F /* ViewModels/AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/AppDataStore.swift; sourceTree = "<group>"; };
+		05AF180A5DA54A1CBB75D29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7EDEF81E91402093760F7D /* Views/Main/MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Main/MainTabView.swift; sourceTree = "<group>"; };
+		26D2ABF9D92C412AA7418842 /* Views/Features/TrackJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TrackJournalView.swift; sourceTree = "<group>"; };
+		4173C26E875E4AFD832FE457 /* 277CaldrenceVirefold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 277CaldrenceVirefold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E0893A2FF14BF0A9F5D594 /* Views/Features/TagLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TagLibraryView.swift; sourceTree = "<group>"; };
+		6641C730E4C94A4399E845FE /* Services/AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AppLinks.swift; sourceTree = "<group>"; };
+		705205F9F6F047BBB9A9CE2A /* Services/HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/HapticService.swift; sourceTree = "<group>"; };
+		87B08BDDA203418EBA1923BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F0F18F6F33D414BB1DEDE65 /* Views/Settings/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		91F2E9FEE81A45E788C02E16 /* Views/Features/TagExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TagExplorerView.swift; sourceTree = "<group>"; };
+		95F7D22CA92341359B8BF7FC /* Models/JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/JournalEntry.swift; sourceTree = "<group>"; };
+		99AAB4E4B43D4D64810B0CB0 /* Views/Achievements/AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Achievements/AchievementsView.swift; sourceTree = "<group>"; };
+		9BB9971DF4B34F1C989B5AFC /* Models/Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Achievement.swift; sourceTree = "<group>"; };
+		A98BF0C44A964148813DFEDB /* Application/AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		ACDB28F3481F4A8BBF014757 /* Base.lproj/LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE3799DB12F04BC8A667CA58 /* Views/Onboarding/OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Onboarding/OnboardingView.swift; sourceTree = "<group>"; };
+		AE8E2AA5E8084C7EAEFF26AA /* Models/MusicTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/MusicTag.swift; sourceTree = "<group>"; };
+		B8D4F02E5C3E4F9B0A12D3E4 /* Views/Statistics/StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Statistics/StatisticsView.swift; sourceTree = "<group>"; };
+		BF13BAB7C5FC4363B526AD1B /* Utilities/DesignComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/DesignComponents.swift; sourceTree = "<group>"; };
+		C1A10002D0014A01B0010002 /* Models/TagRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/TagRule.swift; sourceTree = "<group>"; };
+		C1A10004D0014A01B0010004 /* Views/Features/GlobalSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/GlobalSearchView.swift; sourceTree = "<group>"; };
+		C1A10006D0014A01B0010006 /* Views/Features/QuickAddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/QuickAddSheet.swift; sourceTree = "<group>"; };
+		C1A10008D0014A01B0010008 /* Views/Features/MoodPlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/MoodPlaylistsView.swift; sourceTree = "<group>"; };
+		C1A1000AD0014A01B001000A /* Views/Features/ListeningTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/ListeningTimelineView.swift; sourceTree = "<group>"; };
+		C1A1000CD0014A01B001000C /* Views/Features/TagRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TagRulesView.swift; sourceTree = "<group>"; };
+		C1A1000ED0014A01B001000E /* Views/Features/TagMergeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TagMergeView.swift; sourceTree = "<group>"; };
+		C1A10010D0014A01B0010010 /* Views/Features/ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/ShareCardView.swift; sourceTree = "<group>"; };
+		C1A10012D0014A01B0010012 /* Views/Features/TagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TagDetailView.swift; sourceTree = "<group>"; };
+		C1F0D3B532304739B26DC748 /* Application/SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application/SceneDelegate.swift; sourceTree = "<group>"; };
+		CFABFB80B616FE37C49043F3 /* Pods_277CaldrenceVirefold.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_277CaldrenceVirefold.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B12EAE64894265B8C3A45E /* Utilities/ScreenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/ScreenBackground.swift; sourceTree = "<group>"; };
+		DA9CED6931D477025DC9F1B7 /* Pods-277CaldrenceVirefold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-277CaldrenceVirefold.debug.xcconfig"; path = "Target Support Files/Pods-277CaldrenceVirefold/Pods-277CaldrenceVirefold.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2AF04638311E393F22D790 /* Pods-277CaldrenceVirefold.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-277CaldrenceVirefold.release.xcconfig"; path = "Target Support Files/Pods-277CaldrenceVirefold/Pods-277CaldrenceVirefold.release.xcconfig"; sourceTree = "<group>"; };
+		F13423F2361E4B9B87B8AA16 /* Utilities/ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/ShakeEffect.swift; sourceTree = "<group>"; };
+		F696882F850249D4A288802D /* Views/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		FBC3E8C7DC774D5F95735000 /* Views/Features/TagsHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/TagsHubView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE3A849B78B484388F11896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EF00C40B3951D682227E0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA9CED6931D477025DC9F1B7 /* Pods-277CaldrenceVirefold.debug.xcconfig */,
+				DD2AF04638311E393F22D790 /* Pods-277CaldrenceVirefold.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BEAA022C1324A668CC39DFA /* 277CaldrenceVirefold */ = {
+			isa = PBXGroup;
+			children = (
+				A98BF0C44A964148813DFEDB /* Application/AppDelegate.swift */,
+				C1F0D3B532304739B26DC748 /* Application/SceneDelegate.swift */,
+				9BB9971DF4B34F1C989B5AFC /* Models/Achievement.swift */,
+				95F7D22CA92341359B8BF7FC /* Models/JournalEntry.swift */,
+				AE8E2AA5E8084C7EAEFF26AA /* Models/MusicTag.swift */,
+				C1A10002D0014A01B0010002 /* Models/TagRule.swift */,
+				C1A10004D0014A01B0010004 /* Views/Features/GlobalSearchView.swift */,
+				C1A10006D0014A01B0010006 /* Views/Features/QuickAddSheet.swift */,
+				C1A10008D0014A01B0010008 /* Views/Features/MoodPlaylistsView.swift */,
+				C1A1000AD0014A01B001000A /* Views/Features/ListeningTimelineView.swift */,
+				C1A1000CD0014A01B001000C /* Views/Features/TagRulesView.swift */,
+				C1A1000ED0014A01B001000E /* Views/Features/TagMergeView.swift */,
+				C1A10010D0014A01B0010010 /* Views/Features/ShareCardView.swift */,
+				C1A10012D0014A01B0010012 /* Views/Features/TagDetailView.swift */,
+				6641C730E4C94A4399E845FE /* Services/AppLinks.swift */,
+				705205F9F6F047BBB9A9CE2A /* Services/HapticService.swift */,
+				BF13BAB7C5FC4363B526AD1B /* Utilities/DesignComponents.swift */,
+				D6B12EAE64894265B8C3A45E /* Utilities/ScreenBackground.swift */,
+				F13423F2361E4B9B87B8AA16 /* Utilities/ShakeEffect.swift */,
+				0302C8437E6F459BAB768B6F /* ViewModels/AppDataStore.swift */,
+				99AAB4E4B43D4D64810B0CB0 /* Views/Achievements/AchievementsView.swift */,
+				F696882F850249D4A288802D /* Views/ContentView.swift */,
+				91F2E9FEE81A45E788C02E16 /* Views/Features/TagExplorerView.swift */,
+				42E0893A2FF14BF0A9F5D594 /* Views/Features/TagLibraryView.swift */,
+				FBC3E8C7DC774D5F95735000 /* Views/Features/TagsHubView.swift */,
+				26D2ABF9D92C412AA7418842 /* Views/Features/TrackJournalView.swift */,
+				0E7EDEF81E91402093760F7D /* Views/Main/MainTabView.swift */,
+				AE3799DB12F04BC8A667CA58 /* Views/Onboarding/OnboardingView.swift */,
+				8F0F18F6F33D414BB1DEDE65 /* Views/Settings/SettingsView.swift */,
+				B8D4F02E5C3E4F9B0A12D3E4 /* Views/Statistics/StatisticsView.swift */,
+				87B08BDDA203418EBA1923BB /* Assets.xcassets */,
+				ACDB28F3481F4A8BBF014757 /* Base.lproj/LaunchScreen.storyboard */,
+				05AF180A5DA54A1CBB75D29C /* Info.plist */,
+			);
+			path = 277CaldrenceVirefold;
+			sourceTree = "<group>";
+		};
+		777BC9C4347541448DA37740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4173C26E875E4AFD832FE457 /* 277CaldrenceVirefold.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EAA382F04C495E97372804 = {
+			isa = PBXGroup;
+			children = (
+				6BEAA022C1324A668CC39DFA /* 277CaldrenceVirefold */,
+				777BC9C4347541448DA37740 /* Products */,
+				42EF00C40B3951D682227E0E /* Pods */,
+				DB1117C3188393262A85DB3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1117C3188393262A85DB3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFABFB80B616FE37C49043F3 /* Pods_277CaldrenceVirefold.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A639D05914B486DA539C59E /* 277CaldrenceVirefold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32EDCF165DD46BFA1B5527A /* Build configuration list for PBXNativeTarget "277CaldrenceVirefold" */;
+			buildPhases = (
+				421DCE8E35C0640B98FD847F /* [CP] Check Pods Manifest.lock */,
+				AC53F1C460214F9F930A2C24 /* Sources */,
+				5FE3A849B78B484388F11896 /* Frameworks */,
+				65912577D7D949A9B92EF58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 277CaldrenceVirefold;
+			productName = 277CaldrenceVirefold;
+			productReference = 4173C26E875E4AFD832FE457 /* 277CaldrenceVirefold.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8B36C6B4ECB4DECB6B2D6A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0A639D05914B486DA539C59E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AE54B0F2E83342BF8A31E1FA /* Build configuration list for PBXProject "277CaldrenceVirefold" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1EAA382F04C495E97372804;
+			productRefGroup = 777BC9C4347541448DA37740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A639D05914B486DA539C59E /* 277CaldrenceVirefold */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65912577D7D949A9B92EF58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A069E8CFE341FB94929CC9 /* Assets.xcassets in Resources */,
+				04201FA0BD1F4DA89CFD8973 /* Base.lproj/LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		421DCE8E35C0640B98FD847F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-277CaldrenceVirefold-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC53F1C460214F9F930A2C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF524A43F854A349AF85D22 /* Application/AppDelegate.swift in Sources */,
+				7B9B14E2D92846508BE44F96 /* Application/SceneDelegate.swift in Sources */,
+				6070BFE5A6D546DA84EA41AF /* Models/Achievement.swift in Sources */,
+				26655729991A4E45A36D694B /* Models/JournalEntry.swift in Sources */,
+				FFE81C2502F645CCBD84C344 /* Models/MusicTag.swift in Sources */,
+				C1A10001D0014A01B0010001 /* Models/TagRule.swift in Sources */,
+				C1A10003D0014A01B0010003 /* Views/Features/GlobalSearchView.swift in Sources */,
+				C1A10005D0014A01B0010005 /* Views/Features/QuickAddSheet.swift in Sources */,
+				C1A10007D0014A01B0010007 /* Views/Features/MoodPlaylistsView.swift in Sources */,
+				C1A10009D0014A01B0010009 /* Views/Features/ListeningTimelineView.swift in Sources */,
+				C1A1000BD0014A01B001000B /* Views/Features/TagRulesView.swift in Sources */,
+				C1A1000DD0014A01B001000D /* Views/Features/TagMergeView.swift in Sources */,
+				C1A1000FD0014A01B001000F /* Views/Features/ShareCardView.swift in Sources */,
+				C1A10011D0014A01B0010011 /* Views/Features/TagDetailView.swift in Sources */,
+				E68D705BF194423AB888E1F7 /* Services/AppLinks.swift in Sources */,
+				6C78794DF4B64355A0B9F1E3 /* Services/HapticService.swift in Sources */,
+				4B0B669CBB6841CAA878BD52 /* Utilities/DesignComponents.swift in Sources */,
+				AFDD8855C8A748BB980B10B0 /* Utilities/ScreenBackground.swift in Sources */,
+				5C7925996F14488391C792A9 /* Utilities/ShakeEffect.swift in Sources */,
+				5D9B5E63D161489EA381A52F /* ViewModels/AppDataStore.swift in Sources */,
+				468CB66488684275B7C4F87E /* Views/Achievements/AchievementsView.swift in Sources */,
+				0D7AB4C786D442E8B4F52BA1 /* Views/ContentView.swift in Sources */,
+				6D2F4A0075F34204A9BB32BD /* Views/Features/TagExplorerView.swift in Sources */,
+				C59F82AC2A154F958A76441E /* Views/Features/TagLibraryView.swift in Sources */,
+				8AA0840186294B509549D230 /* Views/Features/TagsHubView.swift in Sources */,
+				12CA385C4CAE47979D89F565 /* Views/Features/TrackJournalView.swift in Sources */,
+				26DE5374B19C44FE8948EFEF /* Views/Main/MainTabView.swift in Sources */,
+				DB95DC1FE3EA4DD592F30BB2 /* Views/Onboarding/OnboardingView.swift in Sources */,
+				FB17D39F3A4F4529ACED4D2A /* Views/Settings/SettingsView.swift in Sources */,
+				A7C3E91F4B2D4E8A9F01C2D3 /* Views/Statistics/StatisticsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		800B11865EEC458591CA6270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2AF04638311E393F22D790 /* Pods-277CaldrenceVirefold.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AppAccent;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 277CaldrenceVirefold/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Caldrence Virefold";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.c8ldr8nc2v5r2f0ld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D64F552F706F447495DFB26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1E6CD11D6B48BB8AD7202B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9CED6931D477025DC9F1B7 /* Pods-277CaldrenceVirefold.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AppAccent;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 277CaldrenceVirefold/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Caldrence Virefold";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.c8ldr8nc2v5r2f0ld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DFC2C29C7E51418584A34167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE54B0F2E83342BF8A31E1FA /* Build configuration list for PBXProject "277CaldrenceVirefold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F552F706F447495DFB26F /* Debug */,
+				DFC2C29C7E51418584A34167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32EDCF165DD46BFA1B5527A /* Build configuration list for PBXNativeTarget "277CaldrenceVirefold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1E6CD11D6B48BB8AD7202B /* Debug */,
+				800B11865EEC458591CA6270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8B36C6B4ECB4DECB6B2D6A6 /* Project object */;
+}

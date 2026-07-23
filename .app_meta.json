@@ -1,0 +1,14 @@
+{
+  "display": "HarmonyTrack",
+  "bundle": "com.app.caldrencevirefold",
+  "category": "public.app-category.music",
+  "colors": {
+    "AppBackground": "313131",
+    "AppSurface": "4a4a4a",
+    "AppPrimary": "fcd04a",
+    "AppAccent": "fdd96e",
+    "AppTextPrimary": "FFFFFF",
+    "AppTextSecondary": "9CA3AF"
+  },
+  "images_theme": "vinyl_music"
+}
