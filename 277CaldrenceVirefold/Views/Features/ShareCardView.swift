@@ -42,7 +42,7 @@ struct ShareCardView: View {
     private var shareCard: some View {
         let quote = store.shareCardQuote()
         return VStack(alignment: .leading, spacing: 16) {
-            Text("HarmonyTrack")
+            Text("Caldrence Virefold")
                 .font(.system(size: 28, weight: .bold, design: .rounded))
                 .foregroundStyle(Color("AppPrimary"))
             Text("My taste this month")
